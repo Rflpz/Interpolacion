@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.iPad.XIB" version="3.0" toolsVersion="6245" systemVersion="13F34" targetRuntime="iOS.CocoaTouch.iPad" propertyAccessControl="none" useAutolayout="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6238"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="RLViewController">
+            <connections>
+                <outlet property="segControll" destination="Jza-5M-C9r" id="KMb-WX-tCX"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+                <outlet property="viewForm" destination="26t-MQ-uCf" id="oA9-u5-yn7"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <subviews>
+                <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="Jza-5M-C9r">
+                    <rect key="frame" x="20" y="85" width="728" height="29"/>
+                    <segments>
+                        <segment title="Lineal"/>
+                        <segment title="Cuadratica"/>
+                        <segment title="Lagrange 1er orden"/>
+                        <segment title="Lagrange 2do orden"/>
+                    </segments>
+                    <connections>
+                        <action selector="selectOption:" destination="-1" eventType="valueChanged" id="54N-Qg-6l1"/>
+                    </connections>
+                </segmentedControl>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="26t-MQ-uCf">
+                    <rect key="frame" x="20" y="121" width="728" height="883"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                </view>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="26t-MQ-uCf" firstAttribute="top" secondItem="Jza-5M-C9r" secondAttribute="bottom" constant="8" id="9NS-N8-pHT"/>
+                <constraint firstAttribute="trailing" secondItem="Jza-5M-C9r" secondAttribute="trailing" constant="20" id="Mcq-GH-UWY"/>
+                <constraint firstAttribute="trailing" secondItem="26t-MQ-uCf" secondAttribute="trailing" constant="20" id="Vuo-8T-WpE"/>
+                <constraint firstAttribute="bottom" secondItem="26t-MQ-uCf" secondAttribute="bottom" constant="20" id="bOe-Gx-hCR"/>
+                <constraint firstItem="26t-MQ-uCf" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="20" id="cYO-Es-ysR"/>
+                <constraint firstItem="Jza-5M-C9r" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="85" id="gNX-tl-E0K"/>
+                <constraint firstItem="Jza-5M-C9r" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="20" id="n0d-1R-5sV"/>
+                <constraint firstItem="26t-MQ-uCf" firstAttribute="top" secondItem="Jza-5M-C9r" secondAttribute="bottom" constant="8" id="pQA-zm-Fwh"/>
+            </constraints>
+            <simulatedNavigationBarMetrics key="simulatedTopBarMetrics" prompted="NO"/>
+        </view>
+    </objects>
+    <simulatedMetricsContainer key="defaultSimulatedMetrics">
+        <simulatedStatusBarMetrics key="statusBar"/>
+        <simulatedOrientationMetrics key="orientation"/>
+        <simulatedScreenMetrics key="destination"/>
+    </simulatedMetricsContainer>
+</document>

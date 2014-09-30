@@ -1,0 +1,569 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BC15AD2919B8B8E9009A25F0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BC15AD2819B8B8E9009A25F0 /* Foundation.framework */; };
+		BC15AD2B19B8B8E9009A25F0 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BC15AD2A19B8B8E9009A25F0 /* CoreGraphics.framework */; };
+		BC15AD2D19B8B8E9009A25F0 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BC15AD2C19B8B8E9009A25F0 /* UIKit.framework */; };
+		BC15AD3319B8B8E9009A25F0 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = BC15AD3119B8B8E9009A25F0 /* InfoPlist.strings */; };
+		BC15AD3519B8B8E9009A25F0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BC15AD3419B8B8E9009A25F0 /* main.m */; };
+		BC15AD3919B8B8E9009A25F0 /* RLAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BC15AD3819B8B8E9009A25F0 /* RLAppDelegate.m */; };
+		BC15AD3B19B8B8E9009A25F0 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BC15AD3A19B8B8E9009A25F0 /* Images.xcassets */; };
+		BC15AD4219B8B8E9009A25F0 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BC15AD4119B8B8E9009A25F0 /* XCTest.framework */; };
+		BC15AD4319B8B8E9009A25F0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BC15AD2819B8B8E9009A25F0 /* Foundation.framework */; };
+		BC15AD4419B8B8E9009A25F0 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BC15AD2C19B8B8E9009A25F0 /* UIKit.framework */; };
+		BC15AD4C19B8B8E9009A25F0 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = BC15AD4A19B8B8E9009A25F0 /* InfoPlist.strings */; };
+		BC15AD4E19B8B8E9009A25F0 /* InterpolacionTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BC15AD4D19B8B8E9009A25F0 /* InterpolacionTests.m */; };
+		BC15AD5D19B8B930009A25F0 /* RLViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BC15AD5B19B8B930009A25F0 /* RLViewController.m */; };
+		BC15AD5E19B8B930009A25F0 /* RLViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BC15AD5C19B8B930009A25F0 /* RLViewController.xib */; };
+		BC15AD6319B8C1AE009A25F0 /* RLViewControllerLineal.m in Sources */ = {isa = PBXBuildFile; fileRef = BC15AD6119B8C1AE009A25F0 /* RLViewControllerLineal.m */; };
+		BC15AD6419B8C1AE009A25F0 /* RLViewControllerLineal.xib in Resources */ = {isa = PBXBuildFile; fileRef = BC15AD6219B8C1AE009A25F0 /* RLViewControllerLineal.xib */; };
+		BC24589019B94D7A005E0349 /* RLViewControllerCuadratica.m in Sources */ = {isa = PBXBuildFile; fileRef = BC24588E19B94D7A005E0349 /* RLViewControllerCuadratica.m */; };
+		BC24589119B94D7A005E0349 /* RLViewControllerCuadratica.xib in Resources */ = {isa = PBXBuildFile; fileRef = BC24588F19B94D7A005E0349 /* RLViewControllerCuadratica.xib */; };
+		BC24589519B94D8A005E0349 /* RLViewControllerLagrangeUno.m in Sources */ = {isa = PBXBuildFile; fileRef = BC24589319B94D8A005E0349 /* RLViewControllerLagrangeUno.m */; };
+		BC24589619B94D8A005E0349 /* RLViewControllerLagrangeUno.xib in Resources */ = {isa = PBXBuildFile; fileRef = BC24589419B94D8A005E0349 /* RLViewControllerLagrangeUno.xib */; };
+		BC24589A19B94DA6005E0349 /* RLViewControllerLagrangeDos.m in Sources */ = {isa = PBXBuildFile; fileRef = BC24589819B94DA6005E0349 /* RLViewControllerLagrangeDos.m */; };
+		BC24589B19B94DA6005E0349 /* RLViewControllerLagrangeDos.xib in Resources */ = {isa = PBXBuildFile; fileRef = BC24589919B94DA6005E0349 /* RLViewControllerLagrangeDos.xib */; };
+		BC24589D19B96071005E0349 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BC24589C19B96071005E0349 /* QuartzCore.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BC15AD4519B8B8E9009A25F0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BC15AD1D19B8B8E9009A25F0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BC15AD2419B8B8E9009A25F0;
+			remoteInfo = Interpolacion;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BC15AD2519B8B8E9009A25F0 /* Interpolacion.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Interpolacion.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BC15AD2819B8B8E9009A25F0 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		BC15AD2A19B8B8E9009A25F0 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		BC15AD2C19B8B8E9009A25F0 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		BC15AD3019B8B8E9009A25F0 /* Interpolacion-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Interpolacion-Info.plist"; sourceTree = "<group>"; };
+		BC15AD3219B8B8E9009A25F0 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		BC15AD3419B8B8E9009A25F0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BC15AD3619B8B8E9009A25F0 /* Interpolacion-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Interpolacion-Prefix.pch"; sourceTree = "<group>"; };
+		BC15AD3719B8B8E9009A25F0 /* RLAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RLAppDelegate.h; sourceTree = "<group>"; };
+		BC15AD3819B8B8E9009A25F0 /* RLAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RLAppDelegate.m; sourceTree = "<group>"; };
+		BC15AD3A19B8B8E9009A25F0 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		BC15AD4019B8B8E9009A25F0 /* InterpolacionTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = InterpolacionTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BC15AD4119B8B8E9009A25F0 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		BC15AD4919B8B8E9009A25F0 /* InterpolacionTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "InterpolacionTests-Info.plist"; sourceTree = "<group>"; };
+		BC15AD4B19B8B8E9009A25F0 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		BC15AD4D19B8B8E9009A25F0 /* InterpolacionTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = InterpolacionTests.m; sourceTree = "<group>"; };
+		BC15AD5A19B8B930009A25F0 /* RLViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RLViewController.h; sourceTree = "<group>"; };
+		BC15AD5B19B8B930009A25F0 /* RLViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RLViewController.m; sourceTree = "<group>"; };
+		BC15AD5C19B8B930009A25F0 /* RLViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RLViewController.xib; sourceTree = "<group>"; };
+		BC15AD6019B8C1AE009A25F0 /* RLViewControllerLineal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RLViewControllerLineal.h; sourceTree = "<group>"; };
+		BC15AD6119B8C1AE009A25F0 /* RLViewControllerLineal.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RLViewControllerLineal.m; sourceTree = "<group>"; };
+		BC15AD6219B8C1AE009A25F0 /* RLViewControllerLineal.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RLViewControllerLineal.xib; sourceTree = "<group>"; };
+		BC24588D19B94D7A005E0349 /* RLViewControllerCuadratica.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RLViewControllerCuadratica.h; sourceTree = "<group>"; };
+		BC24588E19B94D7A005E0349 /* RLViewControllerCuadratica.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RLViewControllerCuadratica.m; sourceTree = "<group>"; };
+		BC24588F19B94D7A005E0349 /* RLViewControllerCuadratica.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RLViewControllerCuadratica.xib; sourceTree = "<group>"; };
+		BC24589219B94D8A005E0349 /* RLViewControllerLagrangeUno.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RLViewControllerLagrangeUno.h; sourceTree = "<group>"; };
+		BC24589319B94D8A005E0349 /* RLViewControllerLagrangeUno.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RLViewControllerLagrangeUno.m; sourceTree = "<group>"; };
+		BC24589419B94D8A005E0349 /* RLViewControllerLagrangeUno.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RLViewControllerLagrangeUno.xib; sourceTree = "<group>"; };
+		BC24589719B94DA6005E0349 /* RLViewControllerLagrangeDos.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RLViewControllerLagrangeDos.h; sourceTree = "<group>"; };
+		BC24589819B94DA6005E0349 /* RLViewControllerLagrangeDos.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RLViewControllerLagrangeDos.m; sourceTree = "<group>"; };
+		BC24589919B94DA6005E0349 /* RLViewControllerLagrangeDos.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RLViewControllerLagrangeDos.xib; sourceTree = "<group>"; };
+		BC24589C19B96071005E0349 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BC15AD2219B8B8E9009A25F0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC24589D19B96071005E0349 /* QuartzCore.framework in Frameworks */,
+				BC15AD2B19B8B8E9009A25F0 /* CoreGraphics.framework in Frameworks */,
+				BC15AD2D19B8B8E9009A25F0 /* UIKit.framework in Frameworks */,
+				BC15AD2919B8B8E9009A25F0 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BC15AD3D19B8B8E9009A25F0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC15AD4219B8B8E9009A25F0 /* XCTest.framework in Frameworks */,
+				BC15AD4419B8B8E9009A25F0 /* UIKit.framework in Frameworks */,
+				BC15AD4319B8B8E9009A25F0 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BC15AD1C19B8B8E9009A25F0 = {
+			isa = PBXGroup;
+			children = (
+				BC15AD2E19B8B8E9009A25F0 /* Interpolacion */,
+				BC15AD4719B8B8E9009A25F0 /* InterpolacionTests */,
+				BC15AD2719B8B8E9009A25F0 /* Frameworks */,
+				BC15AD2619B8B8E9009A25F0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BC15AD2619B8B8E9009A25F0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BC15AD2519B8B8E9009A25F0 /* Interpolacion.app */,
+				BC15AD4019B8B8E9009A25F0 /* InterpolacionTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BC15AD2719B8B8E9009A25F0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BC24589C19B96071005E0349 /* QuartzCore.framework */,
+				BC15AD2819B8B8E9009A25F0 /* Foundation.framework */,
+				BC15AD2A19B8B8E9009A25F0 /* CoreGraphics.framework */,
+				BC15AD2C19B8B8E9009A25F0 /* UIKit.framework */,
+				BC15AD4119B8B8E9009A25F0 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BC15AD2E19B8B8E9009A25F0 /* Interpolacion */ = {
+			isa = PBXGroup;
+			children = (
+				BC15AD5819B8B902009A25F0 /* View Controller */,
+				BC15AD5719B8B8F6009A25F0 /* app delegate */,
+				BC15AD3A19B8B8E9009A25F0 /* Images.xcassets */,
+				BC15AD2F19B8B8E9009A25F0 /* Supporting Files */,
+			);
+			path = Interpolacion;
+			sourceTree = "<group>";
+		};
+		BC15AD2F19B8B8E9009A25F0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BC15AD3019B8B8E9009A25F0 /* Interpolacion-Info.plist */,
+				BC15AD3119B8B8E9009A25F0 /* InfoPlist.strings */,
+				BC15AD3419B8B8E9009A25F0 /* main.m */,
+				BC15AD3619B8B8E9009A25F0 /* Interpolacion-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BC15AD4719B8B8E9009A25F0 /* InterpolacionTests */ = {
+			isa = PBXGroup;
+			children = (
+				BC15AD4D19B8B8E9009A25F0 /* InterpolacionTests.m */,
+				BC15AD4819B8B8E9009A25F0 /* Supporting Files */,
+			);
+			path = InterpolacionTests;
+			sourceTree = "<group>";
+		};
+		BC15AD4819B8B8E9009A25F0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BC15AD4919B8B8E9009A25F0 /* InterpolacionTests-Info.plist */,
+				BC15AD4A19B8B8E9009A25F0 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BC15AD5719B8B8F6009A25F0 /* app delegate */ = {
+			isa = PBXGroup;
+			children = (
+				BC15AD3719B8B8E9009A25F0 /* RLAppDelegate.h */,
+				BC15AD3819B8B8E9009A25F0 /* RLAppDelegate.m */,
+			);
+			name = "app delegate";
+			sourceTree = "<group>";
+		};
+		BC15AD5819B8B902009A25F0 /* View Controller */ = {
+			isa = PBXGroup;
+			children = (
+				BC15AD5F19B8C185009A25F0 /* RLViewControllerLineal */,
+				BC24588C19B94D41005E0349 /* RLViewControllerCuadratica */,
+				BC24588B19B94D3E005E0349 /* RLViewControllerLagrangeUno */,
+				BC24588A19B94D3C005E0349 /* RLViewControllerLagrangeDos */,
+				BC15AD5919B8B917009A25F0 /* RLViewController */,
+			);
+			name = "View Controller";
+			sourceTree = "<group>";
+		};
+		BC15AD5919B8B917009A25F0 /* RLViewController */ = {
+			isa = PBXGroup;
+			children = (
+				BC15AD5A19B8B930009A25F0 /* RLViewController.h */,
+				BC15AD5B19B8B930009A25F0 /* RLViewController.m */,
+				BC15AD5C19B8B930009A25F0 /* RLViewController.xib */,
+			);
+			name = RLViewController;
+			sourceTree = "<group>";
+		};
+		BC15AD5F19B8C185009A25F0 /* RLViewControllerLineal */ = {
+			isa = PBXGroup;
+			children = (
+				BC15AD6019B8C1AE009A25F0 /* RLViewControllerLineal.h */,
+				BC15AD6119B8C1AE009A25F0 /* RLViewControllerLineal.m */,
+				BC15AD6219B8C1AE009A25F0 /* RLViewControllerLineal.xib */,
+			);
+			name = RLViewControllerLineal;
+			sourceTree = "<group>";
+		};
+		BC24588A19B94D3C005E0349 /* RLViewControllerLagrangeDos */ = {
+			isa = PBXGroup;
+			children = (
+				BC24589719B94DA6005E0349 /* RLViewControllerLagrangeDos.h */,
+				BC24589819B94DA6005E0349 /* RLViewControllerLagrangeDos.m */,
+				BC24589919B94DA6005E0349 /* RLViewControllerLagrangeDos.xib */,
+			);
+			name = RLViewControllerLagrangeDos;
+			sourceTree = "<group>";
+		};
+		BC24588B19B94D3E005E0349 /* RLViewControllerLagrangeUno */ = {
+			isa = PBXGroup;
+			children = (
+				BC24589219B94D8A005E0349 /* RLViewControllerLagrangeUno.h */,
+				BC24589319B94D8A005E0349 /* RLViewControllerLagrangeUno.m */,
+				BC24589419B94D8A005E0349 /* RLViewControllerLagrangeUno.xib */,
+			);
+			name = RLViewControllerLagrangeUno;
+			sourceTree = "<group>";
+		};
+		BC24588C19B94D41005E0349 /* RLViewControllerCuadratica */ = {
+			isa = PBXGroup;
+			children = (
+				BC24588D19B94D7A005E0349 /* RLViewControllerCuadratica.h */,
+				BC24588E19B94D7A005E0349 /* RLViewControllerCuadratica.m */,
+				BC24588F19B94D7A005E0349 /* RLViewControllerCuadratica.xib */,
+			);
+			name = RLViewControllerCuadratica;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BC15AD2419B8B8E9009A25F0 /* Interpolacion */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BC15AD5119B8B8E9009A25F0 /* Build configuration list for PBXNativeTarget "Interpolacion" */;
+			buildPhases = (
+				BC15AD2119B8B8E9009A25F0 /* Sources */,
+				BC15AD2219B8B8E9009A25F0 /* Frameworks */,
+				BC15AD2319B8B8E9009A25F0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Interpolacion;
+			productName = Interpolacion;
+			productReference = BC15AD2519B8B8E9009A25F0 /* Interpolacion.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BC15AD3F19B8B8E9009A25F0 /* InterpolacionTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BC15AD5419B8B8E9009A25F0 /* Build configuration list for PBXNativeTarget "InterpolacionTests" */;
+			buildPhases = (
+				BC15AD3C19B8B8E9009A25F0 /* Sources */,
+				BC15AD3D19B8B8E9009A25F0 /* Frameworks */,
+				BC15AD3E19B8B8E9009A25F0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BC15AD4619B8B8E9009A25F0 /* PBXTargetDependency */,
+			);
+			name = InterpolacionTests;
+			productName = InterpolacionTests;
+			productReference = BC15AD4019B8B8E9009A25F0 /* InterpolacionTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BC15AD1D19B8B8E9009A25F0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = RL;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = Rflpz;
+				TargetAttributes = {
+					BC15AD3F19B8B8E9009A25F0 = {
+						TestTargetID = BC15AD2419B8B8E9009A25F0;
+					};
+				};
+			};
+			buildConfigurationList = BC15AD2019B8B8E9009A25F0 /* Build configuration list for PBXProject "Interpolacion" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = BC15AD1C19B8B8E9009A25F0;
+			productRefGroup = BC15AD2619B8B8E9009A25F0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BC15AD2419B8B8E9009A25F0 /* Interpolacion */,
+				BC15AD3F19B8B8E9009A25F0 /* InterpolacionTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BC15AD2319B8B8E9009A25F0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC15AD5E19B8B930009A25F0 /* RLViewController.xib in Resources */,
+				BC24589119B94D7A005E0349 /* RLViewControllerCuadratica.xib in Resources */,
+				BC24589B19B94DA6005E0349 /* RLViewControllerLagrangeDos.xib in Resources */,
+				BC24589619B94D8A005E0349 /* RLViewControllerLagrangeUno.xib in Resources */,
+				BC15AD6419B8C1AE009A25F0 /* RLViewControllerLineal.xib in Resources */,
+				BC15AD3319B8B8E9009A25F0 /* InfoPlist.strings in Resources */,
+				BC15AD3B19B8B8E9009A25F0 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BC15AD3E19B8B8E9009A25F0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC15AD4C19B8B8E9009A25F0 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BC15AD2119B8B8E9009A25F0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC15AD3919B8B8E9009A25F0 /* RLAppDelegate.m in Sources */,
+				BC24589A19B94DA6005E0349 /* RLViewControllerLagrangeDos.m in Sources */,
+				BC15AD6319B8C1AE009A25F0 /* RLViewControllerLineal.m in Sources */,
+				BC15AD3519B8B8E9009A25F0 /* main.m in Sources */,
+				BC24589019B94D7A005E0349 /* RLViewControllerCuadratica.m in Sources */,
+				BC24589519B94D8A005E0349 /* RLViewControllerLagrangeUno.m in Sources */,
+				BC15AD5D19B8B930009A25F0 /* RLViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BC15AD3C19B8B8E9009A25F0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC15AD4E19B8B8E9009A25F0 /* InterpolacionTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BC15AD4619B8B8E9009A25F0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BC15AD2419B8B8E9009A25F0 /* Interpolacion */;
+			targetProxy = BC15AD4519B8B8E9009A25F0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BC15AD3119B8B8E9009A25F0 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BC15AD3219B8B8E9009A25F0 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		BC15AD4A19B8B8E9009A25F0 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BC15AD4B19B8B8E9009A25F0 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BC15AD4F19B8B8E9009A25F0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BC15AD5019B8B8E9009A25F0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BC15AD5219B8B8E9009A25F0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Interpolacion/Interpolacion-Prefix.pch";
+				INFOPLIST_FILE = "Interpolacion/Interpolacion-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		BC15AD5319B8B8E9009A25F0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Interpolacion/Interpolacion-Prefix.pch";
+				INFOPLIST_FILE = "Interpolacion/Interpolacion-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		BC15AD5519B8B8E9009A25F0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Interpolacion.app/Interpolacion";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Interpolacion/Interpolacion-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "InterpolacionTests/InterpolacionTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		BC15AD5619B8B8E9009A25F0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Interpolacion.app/Interpolacion";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Interpolacion/Interpolacion-Prefix.pch";
+				INFOPLIST_FILE = "InterpolacionTests/InterpolacionTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BC15AD2019B8B8E9009A25F0 /* Build configuration list for PBXProject "Interpolacion" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BC15AD4F19B8B8E9009A25F0 /* Debug */,
+				BC15AD5019B8B8E9009A25F0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BC15AD5119B8B8E9009A25F0 /* Build configuration list for PBXNativeTarget "Interpolacion" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BC15AD5219B8B8E9009A25F0 /* Debug */,
+				BC15AD5319B8B8E9009A25F0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BC15AD5419B8B8E9009A25F0 /* Build configuration list for PBXNativeTarget "InterpolacionTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BC15AD5519B8B8E9009A25F0 /* Debug */,
+				BC15AD5619B8B8E9009A25F0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BC15AD1D19B8B8E9009A25F0 /* Project object */;
+}
