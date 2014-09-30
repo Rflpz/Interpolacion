@@ -70,10 +70,13 @@ BOOL isNumericI(NSString *cadena){
         stringieChars[pos] = [cadena characterAtIndex:pos];
     }
     for (int i = 0; i < length; i++) {
-        if(!(stringieChars[i] == 43 || stringieChars[i] == 45 || stringieChars[i] == 46 || (stringieChars[i] >= 48 && stringieChars[i]<= 57))){
+        if(!(stringieChars[i] == 43 || stringieChars[i] == 45 || stringieChars[i] == 32 ||stringieChars[i] == 46 || (stringieChars[i] >= 48 && stringieChars[i]<= 57))){
             status = false;
         }
         NSLog(@"%d",stringieChars[i]);
+    }
+    if(length == 0){
+        status = false;
     }
     return status;
 }
