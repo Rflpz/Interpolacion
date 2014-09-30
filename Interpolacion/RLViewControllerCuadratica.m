@@ -49,11 +49,11 @@
         [alert show];
         NSLog(@"Error");
     }else{
-        if (![operacion  isEqual: @"f(x) = nan"]) {
+        if (![operacion  isEqual: @"f(x) = nan"] && ![operacion  isEqual: @"f(x) = -inf"]) {
             self.result.text = operacion;
         }else{
             UIAlertView *alert = [[UIAlertView alloc] initWithTitle:@"Error"
-                                                            message:@"Expresion invalida (NAN)."
+                                                            message:@"Expresion invalida (NAN || -INF)."
                                                            delegate:nil
                                                   cancelButtonTitle:@"OK"
                                                   otherButtonTitles:nil];
